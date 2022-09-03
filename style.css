@@ -1,0 +1,33 @@
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(9,1fr);
+    grid-template-rows: repeat(9,1fr);
+}
+
+.dashboard{
+    grid-row-start: 1;
+    grid-row-end: 9;
+}
+
+.searchbar{
+    grid-column: 2/10;
+}
+
+.introbar{
+    grid-column: 2/10;
+}
+
+.projects{
+    grid-area: 3/2/10/6;
+}
+
+.announcements{
+    grid-column: 9;
+    grid-row: 3/6;
+}
+
+.team{
+    grid-column: 9;
+    grid-row: 7/9;
+}
