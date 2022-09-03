@@ -12,14 +12,39 @@
 
 .searchbar{
     grid-column: 2/10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+
+.search{
+    display: flex;
+    flex-direction: row;
+}
+
+.icon{
+    display: flex;
+    justify-content: space-between;
 }
 
 .introbar{
     grid-column: 2/10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
 }
 
-.projects{
-    grid-area: 3/2/10/6;
+.mainpage{
+    grid-area: 3/2/10/9;
+}
+
+.projectsection{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 12px
 }
 
 .announcements{
@@ -29,5 +54,13 @@
 
 .team{
     grid-column: 9;
-    grid-row: 7/9;
+    grid-row: 6/9;
+}
+
+h4{
+    margin: 0px;
+}
+
+p{
+    margin: 0px;
 }
