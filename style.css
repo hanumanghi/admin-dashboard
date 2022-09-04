@@ -69,6 +69,15 @@ input{
     justify-content: space-between;
 }
 
+.userIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 6vh;
+    height: 6vh;
+}
+
 .introbar{
     grid-column: 2/10;
     display: flex;
@@ -81,6 +90,7 @@ input{
 
 .mainpage{
     grid-area: 3/2/10/8;
+    overflow: scroll;
 }
 
 .projectsection{
@@ -101,6 +111,7 @@ input{
 .announcements{
     grid-column: 8/10;
     grid-row: 3/6;
+    overflow: scroll;
 }
 
 .announcement{
@@ -123,6 +134,14 @@ input{
     color: black;
     padding: 6px;
     border-radius: 12px;
+}
+
+.teamName{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 6px;
 }
 
 button{
