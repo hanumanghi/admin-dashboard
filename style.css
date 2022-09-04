@@ -108,6 +108,13 @@ input{
     padding: 6px;
     border-radius: 12px;
 }
+
+.missionbutton{
+    float: right;
+    background: none;
+    padding: 0;
+}
+
 .announcements{
     grid-column: 8/10;
     grid-row: 3/6;
